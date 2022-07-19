@@ -4,7 +4,8 @@
             "name": "Mac",
             "includePath": [
                 "${default}",
-                "/opt/homebrew/Cellar/boost/1.79.0/include"
+                "/opt/homebrew/Cellar/boost/1.79.0/include",
+                "${workspaceFolder}/out/build/_deps/googletest-src/googletest/include"
             ],
             "defines": [],
             "macFrameworkPath": [],
